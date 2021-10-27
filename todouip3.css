@@ -1,3 +1,10 @@
+@media screen and (max-width:320px  ) and (max-width:380px) {
+    body{
+        flex-direction: column;
+        }
+}
+
+
 *{
     margin: 0%;
     padding: 0;
@@ -49,13 +56,8 @@
     background-color: rgb(201, 23, 23);
 }
 
-.pgbutton{
+.add2{
     color: white;
-    background-color: red;
-    margin-left: 100px;
-    margin-top: 80px;
-    border: none;
-    width: 50px;
-    font-size: 15px;
-    border-radius: 5px;
+    text-decoration: none;
 }
+
